@@ -103,13 +103,13 @@ En este tutorial, aprenderá a:
   
   ![SearchSkill](images/SearchSkill.PNG)
   
-2. Seleccione la [Instancia de descubrimiento](#31-Nueva-Colección) creada en el paso anterior (sección 3.1). Y elija [DataSet](#3-Watson-Discovery) arriba en la sección 3-1-i.
-   1. Haga clic en la [Instancia](#31-Nueva-Colección) creada en el paso anterior (sección 3.1), que acaba de crear y configurar la Tarjeta de visualización.
+2. Seleccione la [Instancia de descubrimiento](#31-Nueva-colección) creada en el paso anterior (sección 3.1). Y elija [DataSet](#3-Watson-Discovery) arriba en la sección 3-1-i.
+   1. Haga clic en la [Instancia](#31-Nueva-colección) creada en el paso anterior (sección 3.1), que acaba de crear y configurar la Tarjeta de visualización.
    1. Haga clic en la habilidad creada en el paso 4-1-i, que acaba de crear y configurar la tarjeta de visualización.
   
    ![SearchSkillConfig](images/SearchSkillConfig.PNG)
   
-3. Haga clic en **pestaña Asistente** en la barra lateral. Seleccione el Asistente creado y vincule la habilidad de búsqueda creada en [paso 4-1-i](#4-Asistente-Búsqueda-Habilidad) con este asistente.
+3. Haga clic en **pestaña Asistente** en la barra lateral. Seleccione el Asistente creado y vincule la habilidad de búsqueda creada en [paso 4-1-i](#4-Assistant-Search-Skill)) con este asistente.
     1. Haga clic en Add Integeration en el lado derecho y elija **Web Chat Integeration**  haga clic en **Embed**.
    
   ![WAWeb](images/WAWeb.PNG)
