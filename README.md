@@ -1,7 +1,7 @@
 # Watson-Assistant-Tutorial
 
 # Introducción
-En este tutorial, demostraremos cómo podemos usar **Watson Assistant** con la ayuda de **Watson discovery** para crear un Chatbot que pueda interactuar con usted acerca de las pólizas de seguro.
+En este tutorial, demostraremos cómo podemos usar **Watson Assistant** con la ayuda de **Watson Discovery** para crear un Chatbot que pueda interactuar con usted acerca de las pólizas de seguro.
 
 **Tiempo estimado:** 1 hora.
 
@@ -54,31 +54,31 @@ En este tutorial, aprenderá a:
 ## 1. Cuenta de IBM Cloud
 - Inicie sesión en [IBM CLOUD](https://cloud.ibm.com/login)
 
-- Si no tiene un **IBMid**, ingrese su dirección de correo electrónico y acepte la casilla de verificación de los términos en la sección Crear una nueva cuenta de IBM Cloud. Luego haga clic en el botón Siguiente para completar el proceso de creación de una nueva cuenta.
+- Si no tiene un **IBMID**, ingrese su dirección de correo electrónico y acepte la casilla de verificación de los términos en la sección Crear una nueva cuenta de IBM Cloud. Luego haga clic en el botón Siguiente para completar el proceso de creación de una nueva cuenta.
 
 ## 2. Watson Assistant
 
 1. Cree un nuevo servicio [Watson Assistant Service](https://cloud.ibm.com/catalog/services/watson-assistant).
    1. Seleccione la ubicación más cercana a usted.
-   1. En Precios, elija **Versión de prueba**. (No se requiere tarjeta de crédito).
+   1. En Precios, elija **Trial version**. (No se requiere tarjeta de crédito).
    1. Ingrese el nombre del servicio. Puede optar por ingresar el nombre que desee.
 1. Vaya a la lista de IBM Cloud Service y haga clic en la instancia de servicio Watson Assistant creada.
-   1. Cuando se abra la página del Asistente, haga clic en **Iniciar Watson Assistant**
+   1. Cuando se abra la página del Asistente, haga clic en **Launch Watson Assistant**
    
   ![LaunchWA](images/LaunchWA.PNG)
 
 ### 2.1 Habilidad de diálogo
-1. En Watson Assistant Haga clic en la **pestaña Habilidad** en la barra deslizante.
-   1. Haga clic en el botón **Crear habilidad**.
+1. En Watson Assistant Haga clic en la **Skill tab** en la barra deslizante.
+   1. Haga clic en el botón **Create Skill**.
   
   ![WASkill](images/WASkill.PNG)
    
-   1. Seleccione el cuadro **Habilidad de diálogo**
-   1. Haga clic en el **Botón Siguiente**.
+   1. Seleccione el cuadro **Dialog skill**
+   1. Haga clic en el **Next button**.
 1. Seleccione la pestaña Importar habilidad.
-   1. Haga clic en Elegir **archivo JSON**.
+   1. Haga clic en Elegir **Archivo JSON**.
    1. Busque la carpeta principal del repositorio clonado -> **WA-Skill**.
-   1. Seleccione **skill-Covid-Health-Insurance.json** y haga clic en **Abrir**.
+   1. Seleccione **skill-Covid-Health-Insurance.json** y haga clic en **Open**.
 
   ![WASKillUp](images/WASkillUp.PNG)
 
@@ -86,20 +86,20 @@ En este tutorial, aprenderá a:
 1. Cree un nuevo servicio [Watson Discovery](https://cloud.ibm.com/catalog/services/discovery).
    1. Ingrese el nombre del servicio. Puede optar por ingresar el nombre que desee.
    1. Seleccione la ubicación más cercana a usted.
-   1. En **Planes de precios** seleccione el plan **Lite **.
-   1. Haga clic en **Crear**.
-   1. Haga clic en **Iniciar Watson Discovery **.
+   1. En **Pricing Plans** seleccione el plan **Lite **.
+   1. Haga clic en **Create**.
+   1. Haga clic en **Launch Watson Discovery**.
   
   ![LaunchWD](images/LaunchWD.PNG)
 
 ### 3.1 Nueva colección
-1. Haga clic en **Cargar sus propios datos** asígnele un nombre y cargue los documentos de la política en la Carpeta de datos.
+1. Haga clic en **Upload your own data** asígnele un nombre y cargue los documentos de la política en la Carpeta de datos.
 
   ![WDdata](images/WDdata.PNG)
 
 ## 4. Assistant Search Skill
-1. Haga clic en **Pestaña Habilidades** en la barra lateral.
-   1. Haga clic en el **botón Crear habilidad de búsqueda**. Y nombrarlo.
+1. Haga clic en **Skills tab** en la barra lateral.
+   1. Haga clic en **Create Search skill button**. Y nombrarlo.
   
   ![SearchSkill](images/SearchSkill.PNG)
   
@@ -109,7 +109,7 @@ En este tutorial, aprenderá a:
   
    ![SearchSkillConfig](images/SearchSkillConfig.PNG)
   
-3. Haga clic en **pestaña Asistente** en la barra lateral. Seleccione el Asistente creado y vincule la habilidad de búsqueda creada en [paso 4-1-i](#4-Assistant-Search-Skill)) con este asistente.
+3. Haga clic en **Assistant tab** en la barra lateral. Seleccione el Asistente creado y vincule la habilidad de búsqueda creada en [paso 4-1-i](#4-Assistant-Search-Skill)) con este asistente.
     1. Haga clic en Add Integeration en el lado derecho y elija **Web Chat Integeration**  haga clic en **Embed**.
    
   ![WAWeb](images/WAWeb.PNG)
