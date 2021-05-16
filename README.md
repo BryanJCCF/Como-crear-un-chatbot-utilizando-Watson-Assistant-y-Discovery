@@ -9,7 +9,8 @@ En este tutorial, demostraremos cómo podemos usar **Watson Assistant** con la a
 
 # Marco teórico
 **¿Qué es un chatbot?**
-Un chatbot es un programa que usa IA para llevar a cabo interacciones con humanos usando lenguaje natural en texto y / o audio. Los usuarios pueden hacer preguntas, realizar solicitudes, dar información e interactuar según sus necesidades. Los términos chatbot, asistente virtual y agente conversacional a veces se usan indistintamente, pero los chatbots tienden a admitir conversaciones simples y tareas específicas.
+
+Un chatbot es un programa que usa IA para llevar a cabo interacciones con humanos usando lenguaje natural en texto y/o audio. Los usuarios pueden hacer preguntas, realizar solicitudes, dar información e interactuar según sus necesidades. Los términos chatbot, asistente virtual y agente conversacional a veces se usan indistintamente, pero los chatbots tienden a admitir conversaciones simples y tareas específicas.
  
 **Asistente Watson**
 
@@ -22,10 +23,10 @@ Watson Discovery es una galardonada plataforma de análisis de texto y búsqueda
 ## Objetivos de aprendizaje
 En este tutorial, aprenderá a:
 
-- Cree instancias en IBM Cloud.
+- Crear instancias en IBM Cloud.
 - Cargar datos en Watson Discovery.
 - Vincular Watson Assistant a Watson Discovery.
-- Ejecutar un programa Python.
+- Ejecutar un programa de Python.
 
 
 ## Requisitos previos
@@ -36,7 +37,7 @@ En este tutorial, aprenderá a:
  
  ![Flow](images/Flow.png)
  
- 1. Cargue documentos en Watson Discovery: para entrenar el modelo utilizando SDU en varios documentos de política.
+1. Se cargan los documentos en Watson Discovery: Para entrenar el modelo utilizando SDU en varios documentos de política.
 2. Watson Assistant interactuará con el usuario para tomar datos personales.
 3. Después de recopilar información personal, se inicia la habilidad de búsqueda.
 4. Los resultados se obtendrán de Watson Discovery, donde el modelo ha sido entrenado en varios documentos de políticas.
