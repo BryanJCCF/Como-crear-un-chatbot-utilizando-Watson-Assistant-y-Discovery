@@ -1,4 +1,4 @@
-# Watson-Assistant-Tutorial
+# Cómo-crear-un-chatbot-utilizando-Watson-Assistant-y-Discovery
 
 # Introducción
 En este tutorial, demostraremos cómo podemos usar **Watson Assistant** con la ayuda de **Watson Discovery** para crear un Chatbot que pueda interactuar con usted acerca de las pólizas de seguro.
@@ -130,7 +130,7 @@ python app.py
 
 
 # Referencias:
- - [Tutorial de Steve Martinelli](https://github.com/IBM/covid_health_insurance_assistance/blob/main/README.md)
+ - ["Tutorial - Build an assistant to evaluate various Health Insurance Policies"](https://github.com/IBM/covid_health_insurance_assistance/blob/main/README.md)
  
 # Conclusiones
 Ahora tienes los conocimientos para crear tu propio Asistente con las tecnologías de IBM. Sabe cómo funciona Watson Assistant y cómo agregar otros servicios de Cloud Pak para datos como Watson Discovery.
