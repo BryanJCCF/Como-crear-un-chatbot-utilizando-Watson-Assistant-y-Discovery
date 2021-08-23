@@ -1,4 +1,4 @@
-# Cómo-crear-un-chatbot-utilizando-Watson-Assistant-y-Discovery
+# Cómo crear un-chatbot utilizando Watson Assistant y Discovery.
 
 # Introducción
 En este tutorial, demostraremos cómo podemos usar **Watson Assistant** con la ayuda de **Watson Discovery** para crear un Chatbot que pueda interactuar con usted acerca de las pólizas de seguro.
@@ -135,8 +135,8 @@ python app.py
 # Conclusiones
 Ahora tienes los conocimientos para crear tu propio Asistente con las tecnologías de IBM. Sabe cómo funciona Watson Assistant y cómo agregar otros servicios de Cloud Pak para datos como Watson Discovery.
 # Links de interes
-- [Introducción a IBM Cloud Pak for Data](https://developer.ibm.com/articles/intro-to-cloud-pak-for-data/)
-- [Idiomas admitidos](https://cloud.ibm.com/docs/assistant?topic=assistant-language-support)
+- ["Introducción a IBM Cloud Pak for Data"](https://developer.ibm.com/articles/intro-to-cloud-pak-for-data/)
+- ["Idiomas admitidos"](https://cloud.ibm.com/docs/assistant?topic=assistant-language-support)
 ## Licencia
 
 Este Code Pattern se encuentra licenciado bajo Apache License, Version 2. Objetos de código de terceros invocados en dentro de este Code Pattern se encuentran licenciados bajo sus respectivos proveedores en conformidad con los términos de sus correspondientes licencias. Todas las contribuciones se encuentran sujetas al [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) y la [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
