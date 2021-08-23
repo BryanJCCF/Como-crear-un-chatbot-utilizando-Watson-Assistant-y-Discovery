@@ -117,7 +117,7 @@ En este tutorial, aprenderá a:
 
 ## 5. Edita Flask y Correlo
 1. En la plantilla de repositorio / UI.html, debajo de la línea 418, actualice el ID de integración copiado dentro de la etiqueta de secuencia de comandos.
-  ![Código](images/code.png)
+  ![Código](images/Code.png)
 
 1. Navegue a la carpeta del repositorio clonado
 ```
