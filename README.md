@@ -137,4 +137,8 @@ Ahora tienes los conocimientos para crear tu propio Asistente con las tecnologí
 # Links de interes
 - [Introducción a IBM Cloud Pak for Data](https://developer.ibm.com/articles/intro-to-cloud-pak-for-data/)
 - [Idiomas admitidos](https://cloud.ibm.com/docs/assistant?topic=assistant-language-support)
+## Licencia
 
+Este Code Pattern se encuentra licenciado bajo Apache License, Version 2. Objetos de código de terceros invocados en dentro de este Code Pattern se encuentran licenciados bajo sus respectivos proveedores en conformidad con los términos de sus correspondientes licencias. Todas las contribuciones se encuentran sujetas al [Developer Certificate of Origin, Version 1.1](https://developercertificate.org/) y la [Apache License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+[Preguntas frecuentes sobre Apache License](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
