@@ -94,7 +94,7 @@ En este tutorial, aprenderá a:
   ![LaunchWD](images/LaunchWD.PNG)
 
 ### 3.1 Nueva colección
-1. Haga clic en **Upload your own data** asígnele un nombre y cargue los documentos de la política en la Carpeta de datos.
+1. Haga clic en **Upload your own data** asignen un nombre y cargue los documentos de la política en la Carpeta de datos.
 
   ![WDdata](images/WDdata.PNG)
 
