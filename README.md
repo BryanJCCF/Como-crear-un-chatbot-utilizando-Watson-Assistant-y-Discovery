@@ -42,7 +42,7 @@ En este tutorial, aprenderá a:
 3. Después de recopilar información personal, se inicia la habilidad de búsqueda.
 4. Los resultados se obtendrán de Watson Discovery, donde el modelo ha sido entrenado en varios documentos de políticas.
 5. Muestre los resultados al usuario.
- ## Pasos
+ ## Secuencia
 1. [IBM CLOUD Account.](#1-IBM-Cloud-Account)
 1. [Watson Assistant.](#2-Watson-Assistant)
 1. [Watson Discovery.](#3-Watson-Discovery)
@@ -50,7 +50,7 @@ En este tutorial, aprenderá a:
 1. [Edita Flask y Correlo.](#5-Edita-Flask-y-Correlo)
 
 
-# Tutorial
+# Pasos a Seguir
 
 ## 1. Cuenta de IBM Cloud
 - Inicie sesión en [IBM CLOUD](https://cloud.ibm.com/login)
@@ -129,7 +129,7 @@ python app.py
 ```
 
 
-# Referencias:
+# Referencias
  - ["Tutorial - Build an assistant to evaluate various Health Insurance Policies"](https://github.com/IBM/covid_health_insurance_assistance/blob/main/README.md)
  
 # Conclusiones
